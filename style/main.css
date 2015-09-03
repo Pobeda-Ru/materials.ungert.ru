@@ -15,7 +15,17 @@ a {
 	color: #2f4c61;
 	text-decoration: underline;
 }
-a.dashed{
+#wrapper {
+	width: 1150px;
+	margin: 0 auto;
+}
+#page {
+	width: 980px;
+}
+.c2f4c61{
+	color: #2f4c61;
+}
+.dashed{
 	text-decoration: none;
 	border-bottom: 1px dashed #2f4c61;
 }
@@ -25,30 +35,17 @@ a.dashed{
 .italic {
 	font-style: italic;
 }
-#wrapper {
-	width: 1150px;
-	margin: 0 auto;
-}
-#page {
-	width: 980px;
-}
-.bold {
-	font-weight: bold;
-}
-.c2f4c61{
-	color: #2f4c61;
-}
 /*HEADER*/
 
 header {
 	height: 108px;
+	background-image: url(../img/header-bg.png);
 }
 	header div {
 		display: inline-block;
 		vertical-align: top;
 	}
 	#logo{
-		background-image:url(../img/logo-bg.png);
 		width: 196px;
 		height: 108px;
 		text-align: center;
@@ -60,7 +57,6 @@ header {
 	#search-block {
 		height: 108px;
 		width: 324px;
-		background-image: url(../img/search-block-bg.png);
 	}
 		#search-block form {
 			padding: 40px 0 0 35px;
@@ -68,6 +64,8 @@ header {
 			.search{
 				height: 28px;
     			border: 1px solid #c7d1dc;
+    			width: 290px;
+    			background-color: #fff;
 			}
 				.search input[type="search"]{
 					height: 28px;
@@ -90,23 +88,49 @@ header {
 				    background-position: 50% 50%;
 				}
 	#geo {
-		width: 460px;
+		width: 410px;
 		height: 108px;
-		background-image: url(../img/geo-bg.png);
+		padding: 20px 25px;
 		background-repeat: no-repeat;
 		background-position: right;
 	}
 		#contact-block{
-			    padding: 20px 26px;
+			    width: 290px;
 		}
 			#contact-block p{
 				padding-top: 3px
 			}
 			#town {
-				padding: 0 15px 40px 15px;
-			    margin: 20px 0 0 -4px;
-			    width: 87px;
+			    width: 85px;
 			    border-left: 2px solid #d8dfe8;
+			    padding-left: 15px;
+    			height: 65px;
 			}
 
 /*HEADER END*/
+/*MAIN NAV*/
+
+nav ul{
+
+}
+	nav li{
+		display:inline-block;
+		width: 300px;
+	}
+	nav li + li {
+		width: 170px;
+	}
+		nav li a{
+			color: #fff;
+			padding: 10px 20px;
+			display: block;
+			text-align: center;
+			/*background-image: url(../img/bg.png);*/
+			background-color: #2f4c62;
+			text-decoration: none;
+		}
+		nav li a:hover{
+			background-color: #a2b1c2;
+		}
+
+/*MAIN NAV END*/
