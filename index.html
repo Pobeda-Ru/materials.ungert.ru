@@ -6,15 +6,22 @@
 	<meta name="keywords" content="">
 	<meta name="description" content="">
 	<link rel="stylesheet" href="./style/reset.css">
+	<link rel="stylesheet" href="./style/fotorama.css">
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+	<link rel="stylesheet" href="./style/owl.carousel.css">
+	<link rel="stylesheet" href="./style/owl.theme.default.min.css">
 	<link rel="stylesheet" href="./style/main.css">	
 	<script src="./js/jquery-1.11.3.js"></script>
+	<script src="./js/owl.carousel/owl.carousel.js"></script>
+	<script src="./js/fotorama/fotorama.js"></script>
+	<script src="./js/ui1.11.4/jquery-ui.js"></script>
 	<script src="./js/main.js"></script>
 </head>
 <body>
 	<div id="wrapper">
 		<div id="page">
 			<header>
-				<div id="logo">
+				<div class="logo">
 					<a href="[[~1]]"><img src="./img/logo.png" alt=""></a>
 				</div><!--
 				--><div id="search-block">
@@ -25,16 +32,16 @@
 					</p>
 					</form>
 				</div><!--
-				--><div id="geo">
-					<div id="contact-block">
-						<p class="bold c2f4c61">Адрес ШОУ-РУМА: </p>
+				--><div class="geo">
+					<div class="contact-block">
+						<p class="bold c124b62">Адрес ШОУ-РУМА: </p>
 						<p>г. Владивосток, ул. Светланская, 55, офис 5,</p>
-						<p class="bold c2f4c61">Телефон для записи:</p>
+						<p class="bold c124b62">Телефон для записи:</p>
 						<p>(423) 244-65-66</p>
 					</div>
-					<div id="town">
+					<div class="town">
 						<p>Ваш город:</p>
-						<a href="" class="bold italic dashed">Владивосток</a>
+						<a href="" class="bold italic dashed bdc2f4c61">Владивосток</a>
 					</div>
 				</div>
 			</header>
@@ -47,10 +54,227 @@
 					--><li><a href="#">Интерьеры</a></li>
 				</ul>
 			</nav>
+			<section id="slide-wrapper">
+				<div id="fotorama" data-autoplay="4000"  data-nav="false" data-height="290" data-loop="true" data-width="980" class="fotorama">
+					<article>
+						<figure>
+							<img src="./img/slider/slide1.jpg" alt="">
+							<figcaption>
+								Поставка отделочных материалов, мебели, света, интерьеров и сантехники 
+							</figcaption>
+						</figure>
+					</article>
+					<article>
+						<figure>
+							<img src="./img/slider/slide1.jpg" alt="">
+							<figcaption>
+								Поставка отделочных материалов, мебели, света, интерьеров и сантехники 
+							</figcaption>
+						</figure>
+					</article>
+					<article>
+						<figure>
+							<img src="./img/slider/slide1.jpg" alt="">
+							<figcaption>
+								Поставка отделочных материалов, мебели, света, интерьеров и сантехники 
+							</figcaption>
+						</figure>
+					</article>	
+				</div>
+				<div id="description">
+					<p><img src="./img/user.png" alt="">Индивидуальный подход</p>
+					<p><img src="./img/pads.png" alt="">Большой ассортимент </p>
+					<p><img src="./img/car.png" alt="">Гарантия сроков</p>
+					<p><img src="./img/medal.png" alt="">Качественный товар</p>
+					<p><img src="./img/new.png" alt="">Уникальные модели</p>
+				</div>
+			</section>
+			<section id="novelty">
+				<header>
+					<div></div>
+					<p>Новинки</p>
+				</header>
+				<div class="section-content">
+					<div class="owl-carousel">
+							<article>
+								<figure><img src="./img/products/1.jpg" alt="" ></figure>
+								<figcaption><p class="fs15">Раковина на ножке</p><p class="bold c124b62">5.999 руб.</p></figcaption>
+							</article>
+							<article>
+								<figure><img src="./img/products/1.jpg" alt="" ></figure>
+								<figcaption><p class="fs15">Раковина на ножке</p><p class="bold c124b62">5.999 руб.</p></figcaption>
+							</article>
+							<article>
+								<figure><img src="./img/products/1.jpg" alt="" ></figure>
+								<figcaption><p class="fs15">Раковина на ножке</p><p class="bold c124b62">5.999 руб.</p></figcaption>
+							</article>
+							<article>
+								<figure><img src="./img/products/1.jpg" alt="" ></figure>
+								<figcaption><p class="fs15">Раковина на ножке</p><p class="bold c124b62">5.999 руб.</p></figcaption>
+							</article>
+							<article>
+								<figure><img src="./img/products/1.jpg" alt="" ></figure>
+								<figcaption><p class="fs15">Раковина на ножке</p><p class="bold c124b62">5.999 руб.</p></figcaption>
+							</article>
+							<article>
+								<figure><img src="./img/products/1.jpg" alt="" ></figure>
+								<figcaption><p class="fs15">Раковина на ножке</p><p class="bold c124b62">5.999 руб.</p></figcaption>
+							</article>
+							<article>
+								<figure><img src="./img/products/1.jpg" alt="" ></figure>
+								<figcaption><p class="fs15">Раковина на ножке</p><p class="bold c124b62">5.999 руб.</p></figcaption>
+							</article>
+							<article>
+								<figure><img src="./img/products/1.jpg" alt="" ></figure>
+								<figcaption><p class="fs15">Раковина на ножке</p><p class="bold c124b62">5.999 руб.</p></figcaption>
+							</article>
+							<article>
+								<figure><img src="./img/products/1.jpg" alt="" ></figure>
+								<figcaption><p class="fs15">Раковина на ножке</p><p class="bold c124b62">5.999 руб.</p></figcaption>
+							</article>
+							<article>
+								<figure><img src="./img/products/1.jpg" alt="" ></figure>
+								<figcaption><p class="fs15">Раковина на ножке</p><p class="bold c124b62">5.999 руб.</p></figcaption>
+							</article>
+							<article>
+								<figure><img src="./img/products/1.jpg" alt=""></figure>
+								<figcaption><p class="fs15">Раковина на ножке</p><p class="bold c124b62">5.999 руб.</p></figcaption>
+							</article>
+					</div>
+				</div>
+				<a href="">Смотреть все</a>
+				<div style="clear:both;"></div>
+			</section>
+			<section id="hits">
+				<header>
+					<div></div>
+					<p>Хиты продаж</p>
+				</header>
+				<div class="section-content">
+					<div class="owl-carousel">
+							<article>
+								<figure><img src="./img/products/1.jpg" alt="" ></figure>
+								<figcaption><p class="fs15">Раковина на ножке</p><p class="bold c124b62">5.999 руб.</p></figcaption>
+							</article>
+							<article>
+								<figure><img src="./img/products/1.jpg" alt="" ></figure>
+								<figcaption><p class="fs15">Раковина на ножке</p><p class="bold c124b62">5.999 руб.</p></figcaption>
+							</article>
+							<article>
+								<figure><img src="./img/products/1.jpg" alt="" ></figure>
+								<figcaption><p class="fs15">Раковина на ножке</p><p class="bold c124b62">5.999 руб.</p></figcaption>
+							</article>
+							<article>
+								<figure><img src="./img/products/1.jpg" alt="" ></figure>
+								<figcaption><p class="fs15">Раковина на ножке</p><p class="bold c124b62">5.999 руб.</p></figcaption>
+							</article>
+							<article>
+								<figure><img src="./img/products/1.jpg" alt="" ></figure>
+								<figcaption><p class="fs15">Раковина на ножке</p><p class="bold c124b62">5.999 руб.</p></figcaption>
+							</article>
+							<article>
+								<figure><img src="./img/products/1.jpg" alt="" ></figure>
+								<figcaption><p class="fs15">Раковина на ножке</p><p class="bold c124b62">5.999 руб.</p></figcaption>
+							</article>
+							<article>
+								<figure><img src="./img/products/1.jpg" alt="" ></figure>
+								<figcaption><p class="fs15">Раковина на ножке</p><p class="bold c124b62">5.999 руб.</p></figcaption>
+							</article>
+							<article>
+								<figure><img src="./img/products/1.jpg" alt="" ></figure>
+								<figcaption><p class="fs15">Раковина на ножке</p><p class="bold c124b62">5.999 руб.</p></figcaption>
+							</article>
+							<article>
+								<figure><img src="./img/products/1.jpg" alt="" ></figure>
+								<figcaption><p class="fs15">Раковина на ножке</p><p class="bold c124b62">5.999 руб.</p></figcaption>
+							</article>
+							<article>
+								<figure><img src="./img/products/1.jpg" alt="" ></figure>
+								<figcaption><p class="fs15">Раковина на ножке</p><p class="bold c124b62">5.999 руб.</p></figcaption>
+							</article>
+							<article>
+								<figure><img src="./img/products/1.jpg" alt=""></figure>
+								<figcaption><p class="fs15">Раковина на ножке</p><p class="bold c124b62">5.999 руб.</p></figcaption>
+							</article>
+					</div>
+				</div>
+				<a href="">Смотреть все</a>
+				<div style="clear:both;"></div>
+			</section>
+			<section id="brands">
+				<header>
+					<div></div>
+					<p>Наши брэнды:</p>
+				</header>
+				<div class="section-content">
+					<img class="brand" src="./img/nord-creek.png" alt="">
+					<img class="brand" src="./img/stil-innova.png" alt="">
+					<img class="brand" src="./img/aversboden.png" alt="">
+					<img class="brand" src="./img/ungert-show-room.png" alt="">
+					<img class="brand" src="./img/ungert-store.png" alt="">
+				</div>
+				<div style="clear:both;"></div>
+			</section>
+			<footer>
+				<div class="logo">
+					<a href="[[~1]]"><img src="./img/logo.png" alt=""></a>
+				</div><!--
+				--><div id="sitemap">
+					<ul>
+						<li><a href="#">Партнерам</a></li>
+						<li><a href="#">О компании</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>		
+				</div><!--
+				--><div class="town">
+					<p>Ваш город:</p>
+					<a href="" class="bold italic dashed bdcfff">Владивосток</a>
+				</div><!--
+				--><div class="contact-block">
+					<p class="bold c124b62">Адрес ШОУ-РУМА: </p>
+					<p>г. Владивосток, ул. Светланская, 55, офис 5,</p>
+					<p class="bold c124b62">Телефон для записи:</p>
+					<p>(423) 244-65-66</p>
+				</div>
+				<div id="copyright">
+					<p>© ООО «Унгерт Метириэлз», 2001—2015гг.</p>
+					<p class="italic">* Реальный цвет товара может отличаться от цвета на фотографии.</p>
+				</div>
+			</footer>
 		</div>
 		<div id="sidebar">
-			
+			<div id="sidebar-logo"><img src="./img/side-bar-logo.png" alt=""></div>
+			<div id="submit-aplication">
+				<p class="header"><img src="./img/submit-aplication.png">Оставить заявку</p>
+				<form action="#" method="post">
+					<p>
+						<label>Ваше имя</label>
+						<input type="text" required>
+					</p>
+					<p>
+						<label>Телефон</label>
+						<input type="tel" required>
+					</p>
+					<p>
+						<label>E-mail</label>
+						<input type="email" required>
+					</p>
+					<p>
+						<label>Удобная дата посещения</label>
+						<input type="text" id="datepicker">
+					</p>
+					<p>
+						<label>Удобное время для посещения</label>
+						<input type="text">
+					</p>
+					<p>
+						<input type="submit" value="Отправить">
+					</p>
+				</form>
+				<img src="./img/advisor.png" alt="">
+			</div>
 		</div>
 	</div>
+	<div style="clear:both;"></div>
 </body>
 </html>
